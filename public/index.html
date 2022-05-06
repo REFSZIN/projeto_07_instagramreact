@@ -1,15 +1,219 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Instagram-React-App</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="responsivo.css">
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="description" content="Sétimo projeto da formação: Instagram in React! :) JSX , CSS and JavaScript!">
+    <meta name="keywords" content="JSX, CSS, JavaScript in React">
+    <meta name="author" content="https://github.com/REFSZIN/">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="shortcut icon" type="image/x-icon" href="/src/assets/images/ico.ico"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="/css/reset.css"/>
+    <link rel="stylesheet" href="/css/responsive.css"/>
+    <link rel="stylesheet" href="/css/style.css"/>
+
+    <title> Insta 🔮React🔮 </title>
+</head>
+<body>
+<div class="root">
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div class="root"></div>
-  </body>
+<header class="navbar">
+    <section class="container">
+        <nav class="logo">
+            <ion-icon name="logo-instagram"></ion-icon>
+            <hr>
+            <img src="/src/assets/images/logo.png"/>
+        </nav>
+        <nav class="logo-mobile">
+            <ion-icon name="logo-instagram"></ion-icon>
+        </nav>
+        <nav class="instagram-mobile">
+            <img src="/src/assets/images/logo.png"/>
+        </nav>
+        <nav class="pesquisa">
+            <input type="text" placeholder="Pesquisar"/>
+        </nav>
+        <nav class="icones">
+            <ion-icon name="paper-plane-outline"></ion-icon>
+            <ion-icon name="compass-outline"></ion-icon>
+            <ion-icon name="heart-outline"></ion-icon>
+            <ion-icon name="person-outline"></ion-icon>
+        </nav>
+        <nav class="icones-mobile">
+            <ion-icon name="paper-plane-outline"></ion-icon>
+        </nav>
+    </section>
+</header>
+<main class="corpo">
+    <section class="esquerda">
+        <section class="stories">
+            <article class="story">
+                <figure class="imagem">
+                    <img src="/src/assets/images/9gag.svg"/></figure>
+                <figcaption class="usuario">9gag</figcaption>
+            </article>
+            <article class="story">
+                <figure class="imagem">
+                    <img src="/src/assets/images/meowed.svg"/></figure>
+                <figcaption class="usuario">meowed</figcaption>
+            </article>
+            <article class="story">
+                <figure class="imagem">
+                    <img src="/src/assets/images/barked.svg"/></figure>
+                <figcaption class="usuario">barked</figcaption>
+            </article>
+            <article class="story">
+                <figure class="imagem">
+                    <img src="/src/assets/images/nathanwpylestrangeplanet.svg"/></figure>
+                <figcaption class="usuario">nathanwpylestrangeplanet</figcaption>
+            </article>
+            <article class="story">
+                <figure class="imagem">
+                    <img src="/src/assets/images/wawawicomics.svg"/></figure>
+                <figcaption class="usuario">wawawicomics</figcaption>
+            </article>
+            <article class="story">
+                <figure class="imagem">
+                    <img src="/src/assets/images/respondeai.svg"/></figure>
+                <figcaption class="usuario">respondeai</figcaption>
+            </article>
+            <article class="story">
+                <figure class="imagem">
+                    <img src="/src/assets/images/filomoderna.svg"/></figure>
+                <figcaption class="usuario">filomoderna</figcaption>
+            </article>
+            <article class="story">
+                <figure class="imagem">
+                    <img src="/src/assets/images/memeriagourmet.svg"/></figure>
+                <figcaption class="usuario">memeriagourmet</figcaption>
+            </article>
+            <div class="setinha">
+                <ion-icon name="chevron-forward-circle"></ion-icon>
+            </div>
+        </section>
+        <section class="posts">
+            <article class="post">
+                <div class="topo">
+                    <figure class="usuario">
+                    <img src="/src/assets/images/meowed.svg"/>meowed</figure>
+                <div class="acoes">
+                    <ion-icon name="ellipsis-horizontal"></ion-icon>
+                </div>
+                </div>
+                <div class="conteudo">
+                    <img src="/src/assets/images/gato-telefone.svg"/>
+                </div>
+                <div class="fundo">
+                    <div class="acoes">
+                        <div>
+                            <ion-icon name="heart-outline"></ion-icon>
+                            <ion-icon name="chatbubble-outline"></ion-icon>
+                            <ion-icon name="paper-plane-outline"></ion-icon>
+                        </div>
+                        <div>
+                            <ion-icon name="bookmark-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="curtidas">
+                        <img src="/src/assets/images/respondeai.svg"/>
+                    <div class="texto">
+                        Curtido por <strong>respondeai</strong> e <strong>outras 101.523 pessoas</strong>
+                    </div>
+                    </div>
+                    <div class="coments-post">
+                        <span class="comentario1"><img  class="userimg-comentario" src="/assets/user.jpg" alt="User comment in thats post"> <div class="coments"><h3>Yan Matheus</h3> <p>HOLLY SHIT</p></div> </span>
+                    </div>
+                    <div class="input-coments">
+                        <ion-icon class="emotions" name="happy-outline"></ion-icon>
+                        <input  class="input-comentarioss" type="text" inputmode="latin" placeholder="Adicione um Comentário....">
+                        <button>Publicar</button>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </section>
+    <aside class="sidebar">
+        <section class="usuario">
+            <img src="/src/assets/images/catanacomics.svg"/>
+            <div class="texto">
+                <strong>catanacomics</strong>Catana
+            </div>
+        </section>
+        <section class="sugestoes">
+            <div class="titulo">
+                Sugestões para você
+                <div>Ver tudo</div>
+            </div>
+            <article class="sugestao">
+                <div class="usuario">
+                    <img src="/src/assets/images/bad.vibes.memes.svg"/>
+                <div class="texto">
+                    <div class="nome">bad.vibes.memes</div>
+                    <div class="razao">Segue você</div>
+                </div>
+                </div>
+                <div class="seguir">Seguir</div>
+            </article>
+            <article class="sugestao">
+                <div class="usuario">
+                    <img src="assets/img/chibirdart.svg"/>
+                <div class="texto">
+                    <div class="nome">chibirdart</div>
+                    <div class="razao">Segue você</div>
+                </div>
+                </div>
+                <div class="seguir">Seguir</div>
+            </article>
+            <article class="sugestao">
+                <div class="usuario">
+                    <img src="assets/img/razoesparaacreditar.svg"/>
+                <div class="texto">
+                    <div class="nome">razoesparaacreditar</div>
+                    <div class="razao">Novo no Instagram</div>
+                </div>
+                </div>
+                <div class="seguir">Seguir</div>
+            </article>
+            <article class="sugestao">
+                <div class="usuario">
+                    <img src="assets/img/adorable_animals.svg"/>
+                <div class="texto">
+                    <div class="nome">adorable_animals</div>
+                    <div class="razao">Segue você</div>
+                </div>
+                </div>
+                <div class="seguir">Seguir</div>
+            </article>
+            <article class="sugestao">
+                <div class="usuario">
+                    <img src="assets/img/smallcutecats.svg"/>
+                <div class="texto">
+                    <div class="nome">smallcutecats</div>
+                    <div class="razao">Segue você</div>
+                </div>
+                </div>
+                <div class="seguir">Seguir</div>
+            </article>
+        </section>
+        <div class="links">
+            Sobre • Ajuda • Imprensa • API • Carreiras • Privacidade • Termos • Localizações • Contas mais relevantes • Hashtags • Idioma
+        </div>
+        <div class="copyright">
+            © 2021 INSTAGRAM DO FACEBOOK
+        </div>
+    </aside>
+</main>
+<footer class="fundo-mobile">
+    <ion-icon name="home"></ion-icon>
+    <ion-icon name="search-outline"></ion-icon>
+    <ion-icon name="add-circle-outline"></ion-icon>
+    <ion-icon name="heart-outline"></ion-icon>
+    <ion-icon name="person-outline"></ion-icon>
+</footer>
+</div>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="/src/index.js"></script>
+</body>
 </html>
