@@ -10,7 +10,6 @@
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/ico.ico"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="/css/reset.css"/>
-    <link rel="stylesheet" href="/css/responsive.css"/>
     <link rel="stylesheet" href="/css/style.css"/>
 
     <title> Insta 🔮React🔮 </title>
@@ -22,7 +21,7 @@
     <section class="container">
         <nav class="logo">
             <ion-icon name="logo-instagram"></ion-icon>
-            <hr>
+        <hr class="separador">
             <img src="assets/images/logo.png"/>
         </nav>
         <nav class="logo-mobile">
@@ -94,18 +93,18 @@
         </section>
         <section class="posts">
             <article class="post">
-                <div class="topo">
+                <section class="topo">
                     <figure class="usuario">
                     <img src="assets/images/meowed.svg"/>meowed</figure>
                 <div class="acoes">
                     <ion-icon name="ellipsis-horizontal"></ion-icon>
                 </div>
-                </div>
+                </section>
                 <div class="conteudo">
                     <img src="assets/images/gato-telefone.svg"/>
                 </div>
-                <div class="fundo">
-                    <div class="acoes">
+                <section class="fundo">
+                    <section class="acoes">
                         <div>
                             <ion-icon name="heart-outline"></ion-icon>
                             <ion-icon name="chatbubble-outline"></ion-icon>
@@ -114,22 +113,24 @@
                         <div>
                             <ion-icon name="bookmark-outline"></ion-icon>
                         </div>
-                    </div>
-                    <div class="curtidas">
+                    </section>
+                    <section class="curtidas">
                         <img src="assets/images/respondeai.svg"/>
                     <div class="texto">
                         Curtido por <strong>respondeai</strong> e <strong>outras 101.523 pessoas</strong>
                     </div>
-                    </div>
-                    <div class="coments-post">
-                        <span class="comentario1"><img  class="userimg-comentario" src="assets/images/9gag.svg" alt="User comment in thats post"> <div class="coments"><h3>Yan Matheus</h3> <p>HOLLY SHIT</p></div> </span>
-                    </div>
-                    <div class="input-coments">
+                    </section>
+                    <section class="coments-post">
+                        <img  class="userimg" src="assets/images/9gag.svg" alt="User comment in thats post"> 
+                        <h3 class="username">Yan Matheus</h3> 
+                        <p class="usercoment">gudd</p>  
+                    </section>
+                    <section class="input-coments">
                         <ion-icon class="emotions" name="happy-outline"></ion-icon>
-                        <input  class="input-comentarioss" type="text" inputmode="latin" placeholder="Adicione um Comentário....">
-                        <button>Publicar</button>
-                    </div>
-                </div>
+                        <input  class="input" type="text" inputmode="latin" placeholder="Adicione um Comentário....">
+                        <button class="button">Publicar</button>
+                    </section>
+                </section>
             </article>
         </section>
     </section>
@@ -196,12 +197,12 @@
                 <div class="seguir">Seguir</div>
             </article>
         </section>
-        <div class="links">
+        <summary class="links">
             Sobre • Ajuda • Imprensa • API • Carreiras • Privacidade • Termos • Localizações • Contas mais relevantes • Hashtags • Idioma
-        </div>
-        <div class="copyright">
+        </summary>
+        <summary class="copyright">
             © 2021 INSTAGRAM DO FACEBOOK
-        </div>
+        </summary>
     </aside>
 </main>
 <footer class="fundo-mobile">
