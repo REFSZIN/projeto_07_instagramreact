@@ -21,6 +21,7 @@ z-index: 2;
 }
 
 .navbar ion-icon, .navbar img {
+height: 50px;
 cursor: pointer;
 }
 
@@ -40,6 +41,7 @@ height: 100%;
 }
 
 .navbar .logo img {
+height: 30px;
 position: relative;
 top: 3px;
 }
@@ -315,17 +317,20 @@ align-items: flex-start;
 .usercoment{
 margin-left: 4px;
 margin-top: 12px;
+line-height: 10px;
 display: flex;
 justify-content: center;
 align-items: center;
 }
 .username{
+line-height: 10px;
 margin-top: 12px;
 display: flex;
 justify-content: center;
 align-items: center;
 }
 .userimg{
+border-radius: 100px;
 margin-right: 12px;
 height: 30px;
 }
@@ -342,6 +347,8 @@ margin-left: 1%;
 height: 50px;
 }
 .input{
+border-color: gray;
+border-radius: 12px;
 width: 75%;
 height: 40px;
 }
@@ -351,7 +358,7 @@ width: 60px;
 padding-top: 6px;
 }
 .button{
-background-color: #fff;
+background-color:rgb(250, 250, 250);
 margin-left: 10px;
 width: 80px;
 height: 40px;
