@@ -384,7 +384,7 @@ button:hover{
 
 @media (max-width: 614px) {
     .corpo {
-        margin-top: 0;
+        margin-top: 50px;
     }
 
     .post {
