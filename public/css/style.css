@@ -119,9 +119,10 @@ justify-content: center;
 align-items: center;
 height: 66px;
 width: 66px;
-background-image: url('../../public/assets/images/story-circle.svg');
 }
-
+#borda{
+    background-image: url('../../public/assets/images/story-circle.svg');
+}
 .story .imagem img {
 width: 56px;
 height: 56px;
