@@ -104,6 +104,8 @@ padding: 14px 0;
 font-size: 12px;
 cursor: pointer;
 margin-right: 10px;
+animation: animate__fadeInRightBig;
+animation-duration: 2s;
 }
 
 .story .imagem {
@@ -147,6 +149,8 @@ border: 1px solid #DBDBDB;
 display: flex;
 flex-direction: column;
 margin-top: 18px;
+animation: animate__flipInX;
+animation-duration: 2s;
 }
 
 .post .topo {
