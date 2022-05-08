@@ -18,7 +18,7 @@ export default function Post(props){
             <section class="fundo">
                 <section class="acoes">
                     <div>
-                        {like ? (<ion-icon class="liked" onClick={() => setLike(!like)} name="heart"></ion-icon>):(<ion-icon onClick={() => setLike(!like)} name="heart-outline"></ion-icon>)}
+                        {like ? (<ion-icon class="liked" onClick={() => setLike(!like)} name="heart" aria-label="heart" ></ion-icon>):(<ion-icon onClick={() => setLike(!like)} name="heart-outline"></ion-icon>)}
                         <ion-icon name="chatbubble-outline"></ion-icon>
                         <ion-icon name="paper-plane-outline"></ion-icon>
                     </div>
