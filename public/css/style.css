@@ -138,7 +138,7 @@ height: 14px;
 }
 
 .stories .setinha {
-position: absolute;
+position: sticky;
 right: 10px;
 top: 45px;
 height: 32px;
