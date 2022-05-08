@@ -1,9 +1,12 @@
 import React from "react";
-
+import Background from '../../public/assets/images/story-circle.svg';
+const borda = {
+backgroundImage: "url(" + { Background } + ")"
+};
 export default function Story (props) {
     return (
         <article class="story">
-            <figure class="imagem">
+            <figure style={ borda } class="imagem">
                 <img src={props.img} alt="img"/>
             </figure>
             <figcaption class="usuario">{props.name}</figcaption>
