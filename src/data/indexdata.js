@@ -306,8 +306,8 @@ const posts =[
 const user =
 {   
     username:"Refszin",
-    name:"Mona <3",
-    img:"assets/images/refszin.png"
+    name:"@yanhame",
+    img:"assets/images/15.gif"
 }
 
 const users =[
