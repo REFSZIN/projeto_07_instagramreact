@@ -222,6 +222,8 @@ margin-bottom: 18px;
     margin-top: 15px;
     margin-left: 640px;
     margin-bottom: 350px;
+    animation: pulse;
+    animation-duration: 2s;
 }
 
 .sidebar > .usuario {
