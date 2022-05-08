@@ -114,7 +114,7 @@ const posts =[
     usercomment:"assets/images/dog.svg",
     namecomment:"Yan",
     comment:"Gud :)"
-}
+},
 {
     username:"Refszin",
     userimg:"assets/images/refszin.png",
