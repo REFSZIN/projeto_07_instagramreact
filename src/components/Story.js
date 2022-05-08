@@ -1,5 +1,5 @@
 import React from "react";
-import Background from '../../public/assets/images/story-circle.svg';
+import Background from '../data/story-circle.svg';
 const borda = {
 backgroundImage: "url(" + { Background } + ")"
 };
