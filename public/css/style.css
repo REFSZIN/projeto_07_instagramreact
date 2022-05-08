@@ -369,9 +369,12 @@ font-style: bold;
 line-height: 14px;
 }
 button:hover{
-    cursor: pointer;
-    opacity: 0.7;
-    transition: opacity 0.3s ease-in-out;
+cursor: pointer;
+opacity: 0.7;
+transition: opacity 0.3s ease-in-out;
+}
+.liked{
+background-color: rgb(208, 25, 25);
 }
 
 @media (max-width: 935px) {

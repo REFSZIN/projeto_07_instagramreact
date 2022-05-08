@@ -1,4 +1,8 @@
+
+import React , {useState} from "react";
+
 export default function Post(props){
+    const [like, setLike] = useState(0);
     return(
         <article class="post">
             <section class="topo">
@@ -9,12 +13,12 @@ export default function Post(props){
             </div>
             </section>
             <div class="conteudo">
-                <img src={props.conteudo} alt="img"/>
+                <img onClick={() => setLike(1)} src={props.conteudo} alt="img"/>
             </div>
             <section class="fundo">
                 <section class="acoes">
                     <div>
-                        <ion-icon name="heart-outline"></ion-icon>
+                        {like ? (<ion-icon class="liked" onClick={() => setLike(!like)} name="heart"></ion-icon>):(<ion-icon onClick={() => setLike(!like)} name="heart-outline"></ion-icon>)}
                         <ion-icon name="chatbubble-outline"></ion-icon>
                         <ion-icon name="paper-plane-outline"></ion-icon>
                     </div>

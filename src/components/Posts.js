@@ -3,6 +3,7 @@ import Post from "./Post";
 import { posts } from "../data/indexdata";
 
 export default function Posts(){
+    
     return(
         <section class="posts">
             {posts.map((item) => <Post 
