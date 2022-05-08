@@ -368,6 +368,9 @@ font-size: 15px;
 font-style: bold;
 line-height: 14px;
 }
+.conteudo:hover{
+    cursor: pointer;
+}
 button:hover{
 cursor: pointer;
 opacity: 0.7;
