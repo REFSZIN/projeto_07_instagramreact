@@ -104,7 +104,7 @@ padding: 14px 0;
 font-size: 12px;
 cursor: pointer;
 margin-right: 10px;
-animation: animate__fadeInRightBig;
+animation: fadeInRightBig;
 animation-duration: 2s;
 }
 
@@ -149,7 +149,7 @@ border: 1px solid #DBDBDB;
 display: flex;
 flex-direction: column;
 margin-top: 18px;
-animation: animate__flipInX;
+animation: flipInX;
 animation-duration: 2s;
 }
 
