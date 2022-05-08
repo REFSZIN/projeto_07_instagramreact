@@ -92,8 +92,13 @@ border: 1px solid #DBDBDB;
 padding: 0 18px;
 overflow: hidden;
 position: relative;
+overflow-x: scroll;
+-ms-overflow-style: none;
+scrollbar-width: none;  
 }
-
+.stories::-webkit-scrollbar{
+    display: none;
+}
 .story {
 display: flex;
 height: 100%;
@@ -149,7 +154,7 @@ border: 1px solid #DBDBDB;
 display: flex;
 flex-direction: column;
 margin-top: 18px;
-animation: flipInX;
+animation: zoomIn;
 animation-duration: 2s;
 }
 
