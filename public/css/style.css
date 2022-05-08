@@ -377,7 +377,7 @@ opacity: 0.7;
 transition: opacity 0.3s ease-in-out;
 }
 .liked{
-    color: rgb(208, 25, 25);
+    color: rgb(208, 25, 25) !important;
 }
 
 @media (max-width: 935px) {
